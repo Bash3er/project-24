@@ -1,0 +1,17 @@
+.dlg { min-width: 420px; }
+.dlg-head { padding: 24px 24px 16px; border-bottom: 1px solid var(--border); }
+.dlg-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--accent); letter-spacing: 0.12em; margin-bottom: 4px; }
+.dlg-eyebrow-red { color: var(--red); }
+.dlg-title { font-family: 'Barlow Condensed', sans-serif; font-size: 22px; font-weight: 900; color: var(--text); }
+.dlg-body { padding: 20px 24px; display: flex; flex-direction: column; gap: 4px; color: var(--text2); font-size: 14px; line-height: 1.6; }
+.dlg-strong { color: var(--text); }
+.dlg-foot { padding: 12px 24px 20px; display: flex; gap: 10px; justify-content: flex-end; border-top: 1px solid var(--border); }
+.field-row { display: grid; gap: 12px; margin-bottom: 4px; }
+.field-row.full { grid-template-columns: 1fr; }
+.field-row.two { grid-template-columns: 1fr 1fr; }
+.field-row.three { grid-template-columns: 1fr 1fr 1fr; }
+.w100 { width: 100%; }
+.btn-ghost { color: var(--text2) !important; font-family: 'Barlow Condensed', sans-serif !important; font-size: 13px !important; letter-spacing: 0.06em !important; }
+.btn-primary { background: var(--accent) !important; color: #111 !important; font-family: 'Barlow Condensed', sans-serif !important; font-size: 13px !important; font-weight: 900 !important; letter-spacing: 0.06em !important; }
+.btn-primary:disabled { background: var(--border2) !important; color: var(--text3) !important; }
+.btn-danger { background: var(--red) !important; color: #fff !important; font-family: 'Barlow Condensed', sans-serif !important; font-size: 13px !important; font-weight: 900 !important; letter-spacing: 0.06em !important; }
